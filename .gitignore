@@ -1,0 +1,100 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Flutter / Dart
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+**/.flutter-plugins
+.flutter-plugins-dependencies
+**/.flutter-plugins-dependencies
+.packages
+**/.packages
+build/
+**/build/
+app/generated/
+.pub-cache/
+**/.pub-cache/
+.pub/
+**/.pub/
+
+# Desktop & Mobile Ephemeral / Generated Artifacts
+app/windows/flutter/ephemeral/
+app/linux/flutter/ephemeral/
+app/android/.gradle/
+app/android/local.properties
+local.properties
+*.keystore
+*.jks
+key.properties
+app/android/app/src/main/jniLibs/
+
+# Native Compiled Binaries & Libraries
+*.dll
+*.so
+*.dylib
+*.pdb
+*.exe
+*.a
+*.lib
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+.flatpak-builder/
+
+# Local emulator data, cache, saves, and game ROMs
+/data/cache/
+/data/saves/
+/data/screenshots/
+/data/games/
+app/data/cache/
+app/data/saves/
+app/data/screenshots/
+app/data/games/
+**/quicksave.json
+*.jar
+*.jad
+*.rms
+*.sav
+*.state
+
+# Preserve directory structure with .gitkeep
+!/data/games/.gitkeep
+!/data/saves/.gitkeep
+!/data/mods/.gitkeep
+!/data/screenshots/.gitkeep
+!/data/config/.gitkeep
+!/data/cache/.gitkeep
+!app/data/games/.gitkeep
+
+# Documentation to ignore (as requested)
+docs/
+/docs/
+
+# Temporary and log files
+*.log
+*.tmp
+*.bak
+
